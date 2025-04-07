@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function mainnav(type: any) {
+export default function mainnav() {
   return (
     <div>
       <div className="bg-slate-50 w-full h-16 flex justify-between items-center px-10">
