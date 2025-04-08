@@ -1,3 +1,4 @@
+
 "use client";
 
 
@@ -7,7 +8,7 @@ export default function Video() {
       <iframe
         loading="lazy"
         className="w-full h-full"
-        src="https://www.canva.com/design/DAGi22pDxjw/J__Wr_B9I6rDuUGFv98G7g/watch?embed"
+        src="https://www.canva.com/design/DAGkC5oCunA/HEShXEg7JBG0cDj54wmDcg/watch?embed"
         allow="fullscreen"
       ></iframe>
       <a
@@ -15,7 +16,7 @@ export default function Video() {
         target="_blank"
         rel="noopener"
       >
-        Busimate Project
+        Pets Project
       </a>
       {/* <ReactPlayer url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" controls width="100%" height="100%" /> */}
     </div>
