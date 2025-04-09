@@ -1,32 +1,46 @@
+'use client'
 import Video from "./video";
-import VideoPetsHome from "./videopetshome"
+import VideoPetsHome from "./videopetshome";
 import GithubBusimate from "./githubbusimate";
-import GithubPetHome from "./githubpethome"
+import GithubPetHome from "./githubpethome";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Ppersonalproject() {
+  const router = useRouter()
+
+  const goToProjects = () =>{
+    router.push('/project')
+  }
   return (
     <div>
-      <div className="m-20 mt-30">
-      <div className="text-3xl font-bold">Team Project</div>
-        <div className="text-4xl font-bold outline-text outline-stroke">BusiMate Project</div>
+      <div className=" mt-30">
+        <div className="text-center mb-10 bg-slate-50 p-20">
+          <div className="text-2xl font-bold ">Full Stack Developer</div>
+          <div className="text-xl font-bold ">Projects</div>
+          <div className="mr-60 ml-60 mt-2">“This project was driven by real-world research, leading to a fully developed web application — from UX/UI design to front-end development and seamless integration with a real-time backend database.”</div>
+   
+                
+        </div>
+        <div className="m-20">
+        <div className="text-4xl font-bold text-cyan-600 ">
+          Busi<span className="italic">M</span>ate
+        </div>
+        <div className="text-xl text-slate-800 font-semibold mb-5">
+          Team Project
+        </div>
         <div className="flex gap-10">
-        <Video/>
-        <GithubBusimate/>
+          <Video />
+          <GithubBusimate />
+        </div>
+      <div
+      className=" text-slate-900 font-semibold flex mr-10  justify-end w-full "
+      onClick={goToProjects}
+      >More Projects...</div>
         </div>
       </div>
 
-<div className="m-20 mt-30">
-      <div className="text-3xl font-bold">Personal Project</div>
-        <div className="text-4xl font-bold outline-text outline-stroke">BusiMate Project</div>
-        <div className="flex gap-10">
-        <VideoPetsHome/>
-        <GithubPetHome/>
-        </div>
-      </div>
-      </div>
       
-
-    
+    </div>
   );
 }

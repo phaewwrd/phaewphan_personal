@@ -17,59 +17,16 @@ export default function githubpethome() {
   };
 
   return (
-    <>
-      {/* pethome*/}
-      <div className="flex flex-col gap-5 place-items-center mt-10">
-        {/* description */}
-        <div className="text-xl flex gap-10">
-            {/* Overviews */}
-          <div className="p-5 pt-10 shadow-xl rounded-2xl h-60">
-          {/* <Image
-                 src="/images/overviews.png"
-                 alt="techstack"
-                 width={120}
-                 height={10}
-                 className="p-5"
-               >
-                </Image> */}
-            <span className="text-2xl font-semibold">Overview</span>
-            <br /> A web platform for finding veterinary hospitals and booking
-            appointments online. <br />
-          </div>
-          {/* Features */}
-          <div className="p-5 pt-10 shadow-xl rounded-2xl h-60">
-          {/* <Image
-                 src="/images/features.png"
-                 alt="techstack"
-                 width={120}
-                 height={10}
-                 className="p-5"
-               >
-                </Image> */}
-            <span className="text-2xl font-semibold">Features</span>
-            <br /> Search hospitals, book appointments, view reviews, and filter
-            by location. <br />
-          </div>
-          {/* Tech Stack */}
-          <div className="p-5 shadow-xl rounded-2xl h-60">
-          {/* <Image
-                 src="/images/techstack.png"
-                 alt="techstack"
-                 width={120}
-                 height={10}
-                 className="p-5"
-               >
-                </Image> */}
-            <span className="text-2xl  font-semibold flex place-items-center-safe">
-              Tech Stack
-            </span>
-            <br />
-            Built with HTML, CSS, React.js, Tailwind, and Express/Node.js using
-            Prisma for database"
-          </div>
-        </div>
-
-        <div className="flex gap-5 mt-5">
+    <div>
+    <div className="flex flex-col">
+         {/* tools and technologies */}
+         <div className=" p-10  flex place-items-center  ">
+           <div className="flex flex-col gap-5">
+             <label className="font-semibold text-2xl">
+               Tools and Technologies
+             </label>
+             <div>are software tools that assist in planning, designing, developing, testing, and managing projects. They improve efficiency, accuracy, and teamwork throughout the project lifecycle.</div>
+             <div className="flex gap-5 mt-5">
           {/* github icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -103,9 +60,8 @@ export default function githubpethome() {
               Github / Back end
             </button>
           </div>
-        </div>
-        <div className="flex gap-5">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-figma-icon lucide-figma"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"/><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"/><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"/></svg>            {/* figma */}
+          <div className="flex gap-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-figma-icon lucide-figma"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"/><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"/><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"/></svg>            {/* figma */}
             <button
               className="bg-slate-900 text-white px-4 py-2 rounded-md flex gap-2 place-items-center"
               onClick={goToFigma}
@@ -113,8 +69,21 @@ export default function githubpethome() {
               Figma
             </button>
         </div>
-            {/* <iframe className="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/spFun88xIhL1kXfwtIwZpt/Pets-Home?node-id=2-3&starting-point-node-id=2%3A3&embed-host=share" allowFullScreen></iframe> */}
+        </div>
+           </div>
+           <Image
+             src="/images/petshomestack.png"
+             alt="languages"
+             width={380}
+             height={80}
+             className="w-300"
+           />
+         </div>
+       </div>
+      
+     
+      
       </div>
-    </>
+   
   );
 }
