@@ -12,22 +12,22 @@ import { Pagination } from "swiper/modules";
 
 export default function busimate() {
   return (
-    <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-10 max-sm:shadow-none">
-      <div className="flex gap-50 justify-center items-center mb-30 max-sm:mb-0 max-sm:gap-5">
-        <div className="flex gap-10 max-sm:flex-col">
+    <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-10 max-sm:rounded-2xl max-sm:shadow-xl ">
+      <div className="flex gap-50 justify-center items-center mb-30 max-sm:mb-0 max-sm:gap-5 max-sm:flex-col">
+        <div className="flex gap-10 max-sm:gap-2 max-sm:flex-col">
         <Image
           src="/images/busimatescreenshot.png"
           alt="languages"
           width={250}
           height={80}
-          className="mt-10 max-sm:w-100"
+          className="mt-10 max-sm:h-full max-sm:w-70"
         />
         <Image
           src="/images/busimatescreenshot2.png"
           alt="languages"
           width={250}
           height={80}
-          className="mt-10"
+          className="mt-10 max-sm:h-full max-sm:w-70 max-sm:pb-10"
         />
         </div>
         <div className="flex flex-col w-100">

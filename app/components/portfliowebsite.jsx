@@ -14,7 +14,7 @@ import GithubPort from "./githubport";
 
 export default function Portfoliowebsite() {
   return (
-    <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-10 max-sm:shadow-none">
+    <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-10 max-sm:shadow-2xl">
       <div className="flex flex-col  justify-center text-end m-10 max-sm:mb-0 max-sm:gap-5">
       <div className="flex flex-col ">
           <div className="text-6xl font-bold text-orange-400 ">
