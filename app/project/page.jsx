@@ -14,11 +14,11 @@ export default function page() {
       <Image
         src="/images/bg-v.png"
         alt="bg-v"
-        width={1200}
+        width={1000}
         height={80}
-        className="absolute left-5 top-20 -z-30 opacity-75"
+        className="absolute left-5 top-200 -z-30 opacity-75 max-sm:top-30"
       />
-      <div className="flex justify-center  mt-10  gap-60 place-items-center items-center max-sm:gap-10 max-sm:flex-col">
+      <div className="flex justify-center  mt-10  gap-60 place-items-center items-center max-sm:gap-10 max-sm:flex-co max-md:gap-10 max-md:flex-col">
         <div className="flex flex-col gap-5 w-150 max-sm:w-80">
           <div className="text-4xl font-bold">Projects</div>
           <p className="font-bold text-white text-3xl  text-shadow-[2px_2px_2px_rgba(0,0,0,0.4)]">
@@ -44,12 +44,12 @@ export default function page() {
       <div className="flex flex-col gap-10 justify-center mt-40 max-sm:mt-20">
         <div className=" flex flex-col justify-center place-items-center gap-5">
        <div className="text-2xl font-bold"> 4 Phases of Work Sprint</div>
-        <div className=" w-200 text-center text-md font-light max-sm:w-80">"outline a structured approach for delivering projects in an Agile environment. It consists of four key stages."</div>
+        <div className=" w-200 text-center text-md font-light max-sm:w-80 max-md:w-120">"outline a structured approach for delivering projects in an Agile environment. It consists of four key stages."</div>
 
         </div>
-        <div className="flex justify-center place-items-center gap-5 max-sm:flex-col">
+        <div className="flex justify-center place-items-center gap-5 max-sm:flex-col max-md:flex-col">
           {/* 1 */}
-          <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-140">
+          <div className="p-5 pt-10 shadow-xl   rounded-2xl border-slate-200 w-70 h-140 bg-white">
             <Image
               src="/images/coding_11998938.png"
               alt="languages"
@@ -76,7 +76,7 @@ export default function page() {
             </div>
           </div>
           {/* 2 */}
-          <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-140">
+          <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-140 bg-white">
             <Image
               src="/images/metadata_18609631.png"
               alt="framework"
@@ -103,7 +103,7 @@ export default function page() {
             </div>
           </div>
           {/* 3 */}
-          <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-140">
+          <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-140 bg-white">
             <Image
               src="/images/layers_11676373.png"
               alt="libraries"
@@ -128,7 +128,7 @@ export default function page() {
             </div>
           </div>
           {/* 4 */}
-          <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-140">
+          <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-140 bg-white">
             <Image
               src="/images/cloud-data-collection_15438762.png"
               alt="database"

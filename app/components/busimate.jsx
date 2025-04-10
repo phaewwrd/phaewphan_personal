@@ -13,21 +13,21 @@ import { Pagination } from "swiper/modules";
 export default function busimate() {
   return (
     <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-10 max-sm:rounded-2xl max-sm:shadow-xl ">
-      <div className="flex gap-50 justify-center items-center mb-30 max-sm:mb-0 max-sm:gap-5 max-sm:flex-col">
-        <div className="flex gap-10 max-sm:gap-2 max-sm:flex-col">
+      <div className="flex gap-50 justify-center items-center mb-30 max-sm:mb-0 max-sm:gap-5 max-sm:flex-col max-md:mb-0 max-md:flex-col max-md:gap-10">
+        <div className="flex gap-10 max-sm:gap-2 max-sm:flex-col  max-md:flex-col">
         <Image
           src="/images/busimatescreenshot.png"
           alt="languages"
           width={250}
           height={80}
-          className="mt-10 max-sm:h-full max-sm:w-70"
+          className="mt-10 max-sm:h-full max-sm:w-70 max-md:w-90"
         />
         <Image
           src="/images/busimatescreenshot2.png"
           alt="languages"
           width={250}
           height={80}
-          className="mt-10 max-sm:h-full max-sm:w-70 max-sm:pb-10"
+          className="mt-10 max-sm:h-full max-sm:w-70 max-sm:pb-10 max-md:w-90 max-md:pb-10"
         />
         </div>
         <div className="flex flex-col w-100">
@@ -51,7 +51,7 @@ export default function busimate() {
               visits.{" "}
             </div>
          
-            <div className="flex w-120 shadow-xl p-5 z-20 rounded-2xl max-sm:w-100 ">
+            <div className="flex w-120 shadow-xl p-5 z-20 rounded-2xl max-sm:w-100 max-md:120">
               <Swiper
                 pagination={true}
                 modules={[Pagination]}
