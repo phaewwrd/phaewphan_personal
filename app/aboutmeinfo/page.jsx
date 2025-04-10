@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function aboutmeinfo() {
   return (
     <div className="m-20 flex flex-col text-lg justify-center place-items-center gap-5 ">
-      <div className="flex flex-col gap-10 font-semibold w-250  p-15 max-sm:w-90 max-sm:p-5">
+      <div className="flex flex-col gap-10 font-semibold w-250  p-15 max-sm:w-90 max-sm:p-5 max-md:w-150">
       <div className="fles fles-col gap-10">
       <div className="text-2xl">Phaewphan Woradanuphan</div>
        <div className="text-xl font-light">bkk, Thailand</div>
@@ -108,9 +108,9 @@ export default function aboutmeinfo() {
                   height={70}
                   className="pb-5"
                 />                </div>
-                <div className="mr-60 ml-60 mt-2 max-sm:w-70 max-sm:mr-5 max-sm:ml-5">"Formal Education & Self-Directed Learning."</div>
+                <div className="mr-60 ml-60 mt-2 max-sm:w-70 max-sm:mr-5 max-sm:ml-5 max-md:w-100">"Formal Education & Self-Directed Learning."</div>
               </div>
-              <div className="flex gap-10 max-sm:flex-col max-sm:gap-5">
+              <div className="flex gap-10 max-sm:flex-col max-sm:gap-5 max-md:flex-col">
               {/* 2012 */}
               <div className=" pt-10 shadow-xl p-10 rounded-2xl border-slate-200 w-100 ">
                
@@ -179,7 +179,7 @@ export default function aboutmeinfo() {
           </div>
         </div> */}
         {/* technical */}
-        <div className="flex flex-col gap-5 font-semibold p-15 w-250  rounded-2xl shadow-xl bg-white max-sm:w-90">
+        <div className="flex flex-col gap-5 font-semibold p-15 w-250  rounded-2xl shadow-xl bg-white max-sm:w-90 max-md:w-120">
         <Image
                   src="/images/coding_11998938.png"
                   alt="languages"

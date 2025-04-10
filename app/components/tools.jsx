@@ -10,9 +10,9 @@ export default function () {
           <div className="text-2xl font-bold flex justify-center place-items-center gap-5">Tools and Technologies.
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-code-xml-icon lucide-code-xml"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
           </div>
-          <div className="mr-60 ml-60 mt-2 max-sm:w-70">"A summary of the core tools and technologies that powered the design, development, and deployment of this application."</div>
+          <div className="mr-60 ml-60 mt-2 max-sm:w-70 max-md:w-100">"A summary of the core tools and technologies that powered the design, development, and deployment of this application."</div>
         </div>
-        <div className="flex gap-10 max-sm:flex-col">
+        <div className="flex gap-10 max-sm:flex-col max-md:flex-col">
         {/* languaues */}
         <div className="p-5 pt-10 shadow-xl  rounded-2xl border-slate-200 w-70 h-80 bg-white">
           <Image
@@ -75,7 +75,7 @@ export default function () {
           <div></div>
         </div>
         </div>
-        <div className="flex gap-10 max-sm:flex-col">
+        <div className="flex gap-10 max-sm:flex-col max-md:flex-col">
         {/* version conntrol */}
         <div className="p-5 pt-10  shadow-xl rounded-2xl border-slate-200 w-70 h-80 bg-white">
           <Image

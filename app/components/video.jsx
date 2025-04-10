@@ -3,7 +3,7 @@
 
 export default function Video() {
   return (
-    <div className="aspect-video max-w-xl mx-auto w-[2200px] max-sm:w-[350px] ">
+    <div className="aspect-video max-w-xl mx-auto w-[2200px] h-full max-sm:w-[350px] max-md:w-[400px]">
       <iframe
         loading="lazy"
         className="w-full h-full"

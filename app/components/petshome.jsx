@@ -14,7 +14,7 @@ export default function petshome() {
   return (
     <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-5">
       {/* section 1 */}
-      <div className="flex gap-30 justify-center items-center mb-30 max-sm:mb-5 max-sm:flex-col max-sm:place-items-center max-sm:gap-10">
+      <div className="flex gap-30 justify-center items-center mb-30 max-sm:mb-5 max-sm:flex-col max-sm:place-items-center max-sm:gap-10 max-md:flex-col">
         <Image
           src="/images/petshomescreen.png"
           alt="languages"
@@ -32,8 +32,8 @@ export default function petshome() {
         </div>
       </div>
       <div className="flex flex-col place-items-center gap-10 max-sm:gap-5">
-        <div className="flex gap-10 max-sm:flex-col max-sm:gap-5 max-sm:place-items-center">
-          <div className="max-sm:flex max-sm:flex-col max-sm:place-items-center ">
+        <div className="flex gap-10 max-sm:flex-col max-sm:gap-5 max-sm:place-items-center max-md:flex-col">
+          <div className="max-sm:flex max-sm:flex-col max-sm:place-items-center max-md:flex-col">
             {/* Title and Descriptions */}
             <div className="text-xl  p-10 gap-2 flex flex-col max-sm:place-items-center">
               {/* description */}

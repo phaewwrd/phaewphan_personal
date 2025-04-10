@@ -3,7 +3,7 @@
 
 export default function VideoPortFolio() {
   return (
-    <div className="aspect-video max-w-xl mx-auto w-[2200px] max-sm:w-[350px] h-full">
+    <div className="aspect-video max-w-xl mx-auto w-[2200px]  max-sm:w-[350px]  max-md:w-[450px]">
       <iframe
         loading="lazy"
         className="w-full h-full"

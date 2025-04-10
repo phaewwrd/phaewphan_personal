@@ -40,7 +40,7 @@ export default function busimate() {
         </div>
       </div>
       <div className="flex w-full flex-col place-items-center gap-10">
-        <div className="flex gap-10 max-sm:flex-col">
+        <div className="flex gap-10 max-sm:flex-col max-md:flex-col">
           <Video  />
           <div className="max-sm:flex max-sm:flex-col max-sm:place-items-center">
             {/* Title and Descriptions */}

@@ -14,7 +14,7 @@ export default function GithubPort() {
     <div>
       <div className="flex flex-col">
         {/* tools and technologies */}
-        <div className=" p-10  flex place-items-center  max-sm:flex-col ">
+        <div className=" p-10  flex place-items-center  max-sm:flex-col max-md:flex-col">
           <div className="flex flex-col gap-5">
             <label className="font-semibold text-2xl">
               Tools and Technologies

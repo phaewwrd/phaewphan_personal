@@ -24,7 +24,7 @@ export default function Portfoliowebsite() {
             Web-App Personal Project
           </div>
         </div>
-        <div className="flex mb-20 gap-10 max-sm:flex-col">
+        <div className="flex mb-20 gap-10 max-sm:flex-col max-md:flex-col max-md:place-items-center">
         <Image
           src="/images/portfolioweb.png"
           alt="languages"
@@ -43,7 +43,7 @@ export default function Portfoliowebsite() {
         
       </div>
       <div className="flex w-full flex-col place-items-center gap-10">
-        <div className="flex gap-10 max-sm:flex-col">
+        <div className="flex gap-10 max-sm:flex-col max-md:flex-col">
           <VideoPortFolio  />
           <div className="max-sm:flex max-sm:flex-col max-sm:place-items-center">
             {/* Title and Descriptions */}
