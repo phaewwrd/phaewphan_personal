@@ -26,7 +26,7 @@ export default function aboutme() {
         className="p-5 max-sm:w-70"
       />
        <Image
-                 src="/images/bg-v.PNG"
+                 src="/images/bg-v.png"
                  alt="languages"
                  width={600}
                  height={80}

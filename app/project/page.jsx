@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
       <Image
-        src="/images/bg-v.PNG"
+        src="/images/bg-v.png"
         alt="languages"
         width={1200}
         height={80}
