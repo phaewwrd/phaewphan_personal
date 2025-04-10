@@ -16,8 +16,8 @@ export default function Ppersonalproject() {
     <div>
       <div className="mt-30 max-sm:mt-10">
       <Image
-           src="/images/bg-h.png"
-           alt="bg-h"
+           src="/images/bg-v.png"
+           alt="bg-v"
            width={1200}
            height={80}
            className="absolute top-320 left-50 -z-10 opacity-50"
