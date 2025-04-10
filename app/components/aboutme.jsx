@@ -27,7 +27,7 @@ export default function aboutme() {
       />
        <Image
                  src="/images/bg-v.png"
-                 alt="languages"
+                 alt="bg-v"
                  width={600}
                  height={80}
                  className="absolute top-10 -z-10 opacity-75"

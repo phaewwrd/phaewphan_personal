@@ -13,7 +13,7 @@ export default function page() {
     <>
       <Image
         src="/images/bg-v.png"
-        alt="languages"
+        alt="bg-v"
         width={1200}
         height={80}
         className="absolute left-5 top-450 -z-30 opacity-75"

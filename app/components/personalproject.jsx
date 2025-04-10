@@ -17,7 +17,7 @@ export default function Ppersonalproject() {
       <div className="mt-30 max-sm:mt-10">
       <Image
            src="/images/bg-h.PNG"
-           alt="languages"
+           alt="bg-h"
            width={1200}
            height={80}
            className="absolute top-320 left-50 -z-10 opacity-50"

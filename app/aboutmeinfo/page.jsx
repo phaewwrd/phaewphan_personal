@@ -232,7 +232,7 @@ export default function aboutmeinfo() {
       </div>
       <Image
         src="/images/bg-h.PNG"
-        alt="languages"
+        alt="bg-h"
         width={1000}
         height={80}
         className="absolute -top-30 -left-150 -z-10 opacity-75"
