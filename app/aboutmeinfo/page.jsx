@@ -231,8 +231,8 @@ export default function aboutmeinfo() {
         </div>
       </div>
       <Image
-        src="/images/bg-v.png"
-        alt="bg-v"
+        src="/images/bg-h.png"
+        alt="bg-h"
         width={1000}
         height={80}
         className="absolute -top-30 -left-150 -z-10 opacity-75"
