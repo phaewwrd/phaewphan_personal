@@ -16,7 +16,7 @@ export default function Ppersonalproject() {
     <div>
       <div className="mt-30 max-sm:mt-10">
       <Image
-           src="/images/bg-h.PNG"
+           src="/images/bg-h.png"
            alt="bg-h"
            width={1200}
            height={80}
