@@ -49,7 +49,7 @@ export default function githubbusimate() {
               >
                 Github / Front end
               </button>
-              {/* Backend */}
+              Backend
               <button
                 className="bg-slate-900 max-sm:mb-5 text-white px-4 py-2 rounded-md flex gap-2 cursor-pointer"
                 onClick={goToBackEnd}
@@ -60,7 +60,7 @@ export default function githubbusimate() {
           </div>
         </div>
         <Image
-          src="/images/stackportfolio.png"
+          src="/images/busimatestack.png"
           alt="languages"
           width={400}
           height={80}

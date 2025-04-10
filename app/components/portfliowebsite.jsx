@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import VideoPortFolio from "./videoportfolio";
+import GithubPort from "./githubport";
 
 export default function Portfoliowebsite() {
   return (
@@ -63,7 +64,7 @@ export default function Portfoliowebsite() {
             
           </div>
         </div>
-        <GithubBusimate />
+        <GithubPort />
       </div>
     </div>
   );
