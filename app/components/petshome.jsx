@@ -12,17 +12,17 @@ import { Pagination } from "swiper/modules";
 
 export default function petshome() {
     return (
-        <div className="p-10 m-30 shadow-xl rounded-2xl bg-white">
+        <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-5">
           {/* section 1 */}
-          <div className="flex gap-50 justify-center items-center mb-30">
+          <div className="flex gap-30 justify-center items-center mb-30 max-sm:mb-5 max-sm:flex-col max-sm:place-items-center max-sm:gap-10">
           <Image
                                  src="/images/petshomescreen.png"
                                  alt="languages"
                                  width={600}
                                  height={80}
-                                 className="mt-10"
+                                 className="mt-10 max-sm:mt-0 max-sm:80 "
                                />
-            <div className="flex flex-col w-100">
+            <div className="flex flex-col w-100 max-sm:w-70 ">
 
           <div className="text-6xl font-bold text-teal-600 ">
             Pets <span className="italic ">Home</span>
@@ -33,18 +33,18 @@ export default function petshome() {
             </div>
          
           </div>
-          <div className="flex flex-col place-items-center gap-10">
+          <div className="flex flex-col place-items-center gap-10 max-sm:gap-5">
     
-            <div className="flex gap-10">
+            <div className="flex gap-10 max-sm:flex-col max-sm:gap-5 max-sm:place-items-center">
               <div className="">
               {/* Title and Descriptions */}
-              <div className="text-xl  p-10 gap-2 flex flex-col">
+              <div className="text-xl  p-10 gap-2 flex flex-col max-sm:place-items-center">
                       {/* description */}
                          <span className="font-semibold"> Overview</span>   A web platform for finding veterinary hospitals and booking appointments online.
                       </div>
               {/* features */}
              
-              <div className="flex w-200 shadow-xl p-5 z-20 rounded-2xl">
+              <div className="flex w-120 shadow-xl p-5 z-20 rounded-2xl max-sm:w-80 max-sm:justify-center max-sm:p-0">
                 <Swiper
                   pagination={true}
                   modules={[Pagination]}

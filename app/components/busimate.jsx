@@ -12,15 +12,15 @@ import { Pagination } from "swiper/modules";
 
 export default function busimate() {
   return (
-    <div className="p-10 m-30 shadow-xl rounded-2xl bg-white">
-      <div className="flex gap-50 justify-center items-center mb-30">
-        <div className="flex gap-10">
+    <div className="p-10 m-30 shadow-xl rounded-2xl bg-white max-sm:m-5 max-sm:p-10 max-sm:shadow-none">
+      <div className="flex gap-50 justify-center items-center mb-30 max-sm:mb-0 max-sm:gap-5">
+        <div className="flex gap-10 max-sm:flex-col">
         <Image
           src="/images/busimatescreenshot.png"
           alt="languages"
           width={250}
           height={80}
-          className="mt-10"
+          className="mt-10 max-sm:w-100"
         />
         <Image
           src="/images/busimatescreenshot2.png"
@@ -39,33 +39,26 @@ export default function busimate() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col place-items-center gap-10">
-        <div className="flex gap-10">
-          <Video />
-          <div className="">
+      <div className="flex w-full flex-col place-items-center gap-10">
+        <div className="flex gap-10 max-sm:flex-col">
+          <Video  />
+          <div className="max-sm:flex max-sm:flex-col max-sm:place-items-center">
             {/* Title and Descriptions */}
-            <div className="text-xl  p-10 gap-2 flex flex-col">
+            <div className="text-xl p-10 gap-2 flex flex-col max-sm:p-5 max-sm:place-items-center">
               {/* description */}
               <span className="font-semibold"> Overview</span> A web app that
               connects senior citizens with transport services for hospital
               visits.{" "}
             </div>
-            {/* features */}
-            {/* <Image
-                 src="/images/bg-h.PNG"
-                 alt="languages"
-                 width={1000}
-                 height={80}
-                 className="absolute left-5 top-300 -z-10 opacity-75"
-               /> */}
-            <div className="flex w-200 shadow-xl p-5 z-20 rounded-2xl">
+         
+            <div className="flex w-120 shadow-xl p-5 z-20 rounded-2xl max-sm:w-100 ">
               <Swiper
                 pagination={true}
                 modules={[Pagination]}
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  {/* react leaflet */}
+
                   <div className="flex flex-col p-5">
                     <label className="font-semibold">Feature Mapping</label>
                     <div>
@@ -88,7 +81,7 @@ export default function busimate() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  {/* stripe*/}
+
                   <div className="flex flex-col ">
                     <label className="font-semibold">Feature Payment</label>
                     <div>
@@ -109,7 +102,7 @@ export default function busimate() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  {/* socket.io*/}
+
                   <div className="flex flex-col p-5">
                     <label className="font-semibold">Feature Chat</label>
                     <div>
@@ -124,7 +117,7 @@ export default function busimate() {
                         alt="languages"
                         width={200}
                         height={80}
-                        className=""
+                        className="max-sm:w-70"
                       />
                     </div>
                   </div>

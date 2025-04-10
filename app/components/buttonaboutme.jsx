@@ -10,7 +10,7 @@ export default function buttonaboutme() {
   return (
     <div>
       <button
-        className="bg-slate-900 text-white px-4 py-2 rounded-md"
+        className="bg-slate-900 text-white px-4 py-2 rounded-md cursor-pointer"
         onClick={goToAboutme}
       >
         About me
