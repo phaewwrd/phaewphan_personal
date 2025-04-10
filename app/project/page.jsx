@@ -16,7 +16,7 @@ export default function page() {
         alt="bg-v"
         width={1200}
         height={80}
-        className="absolute left-5 top-450 -z-30 opacity-75"
+        className="absolute left-5 top-20 -z-30 opacity-75"
       />
       <div className="flex justify-center  mt-10  gap-60 place-items-center items-center max-sm:gap-10 max-sm:flex-col">
         <div className="flex flex-col gap-5 w-150 max-sm:w-80">

@@ -15,13 +15,15 @@ export default function Ppersonalproject() {
   return (
     <div>
       <div className="mt-30 max-sm:mt-10">
+        <div className="w-100 overflow-hidden ">
       <Image
            src="/images/bg-h.png"
            alt="bg-h"
            width={1200}
            height={80}
-           className="absolute top-320 left-50 -z-10 opacity-50"
+           className="opacity-50 absolute top-320 left-50 -z-10 "
          />
+        </div>
         <div className="text-center mb-10 bg-slate-50 p-20 max-sm:p-10 max-sm:flex max-sm:flex-col max-sm:place-items-center">
           <div className="text-2xl font-bold ">Full Stack Developer</div>
           <div className="text-xl font-bold ">Projects</div>
