@@ -6,7 +6,7 @@ import PersonalProject from "./components/personalproject";
 
 export default function Home() {
   return (
-    <div className="bg-wgite">
+    <div className="">
       <AboutMe />
       <Tools />
       <PersonalProject />
